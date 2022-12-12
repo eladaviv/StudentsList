@@ -13,7 +13,19 @@
         android:theme="@style/Theme.StudentsList"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".EditStudentActivity"
+            android:label="@string/edit_student"
+            android:exported="false" />
+        <activity
+            android:name=".AddStudentActivity"
+            android:label="@string/new_student"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDetailsActivity"
+            android:label="@string/student_details"
+            android:exported="false" />
+        <activity
+            android:name=".StudentListRvActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
