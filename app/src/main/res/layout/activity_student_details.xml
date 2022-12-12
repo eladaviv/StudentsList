@@ -28,17 +28,18 @@
             android:orientation="horizontal"
             android:weightSum="6"
             >
+
             <TextView
                 android:id="@+id/details_name_text_view_label"
-                android:layout_width="wrap_content"
+                android:layout_width="68dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="name:"
-                android:textSize="24sp"
-                />
+                android:textSize="24sp" />
+
             <TextView
                 android:id="@+id/details_name_text_view"
-                android:layout_width="wrap_content"
+                android:layout_width="1dp"
                 android:layout_height="match_parent"
                 android:layout_weight="5"
                 android:hint="name"
@@ -46,29 +47,31 @@
 
         </LinearLayout>
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:weightSum="8"
         >
-        <TextView
-            android:id="@+id/details_id_text_view_label"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:text="id:"
-            android:textSize="24sp" />
-        <TextView
-            android:id="@+id/details_id_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:hint="id"
-            android:textSize="24sp" />
-    </LinearLayout>
 
-    <LinearLayout
+            <TextView
+                android:id="@+id/details_id_text_view_label"
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="id:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/details_id_text_view"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:hint="id"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -81,16 +84,17 @@
             android:layout_weight="1"
             android:text="phone:"
             android:textSize="24sp" />
-        <TextView
-            android:id="@+id/details_phone_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:hint="phone"
-            android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/details_phone_text_view"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:hint="phone"
+                android:textSize="24sp" />
     </LinearLayout>
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
@@ -103,13 +107,14 @@
             android:layout_weight="1"
             android:text="address:"
             android:textSize="24sp" />
-        <TextView
-            android:id="@+id/details_address_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:hint="address"
-            android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/details_address_text_view"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:hint="address"
+                android:textSize="24sp" />
     </LinearLayout>
 
         <CheckBox
